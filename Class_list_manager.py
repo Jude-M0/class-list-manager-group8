@@ -9,10 +9,13 @@ names=["Sara","Noura","Lama","Reem","Amal","Lama"]
 def count_names(names):
    return len(names)
 
-
-
-
-
+#written by: Reema Albiaybe (task 6)
+def to_upper(names):
+   upper_names = []
+   for name in names:
+      upper_names.append(name.upper())
+   return upper_names
+   
 
 
 
@@ -29,7 +32,7 @@ def main():
   print("Class List:", names)
 
   print("Number of names:",count_names(names))
-
+  print("Uppercase names:",to_upper(names))
 
 
 
