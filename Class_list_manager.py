@@ -42,6 +42,8 @@ def main():
   print("Number of names:",count_names(names))
   print("Uppercase names:",to_upper(names))
   print("Names starting with L:", names_starting_with(names, "L"))
+  print("Is Reem in the class?", search_names(names, "Reem")) 
+  print("Is Dana in the class?", search_names(names, "Dana"))
   
   
 
