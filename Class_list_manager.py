@@ -25,7 +25,9 @@ def names_starting_with(names, letter):
     return result
 
 
-
+#Written by: Lana Aljuaid (task 2) 
+def search_name(names, name):
+   return name in names
 
 
 
@@ -40,7 +42,8 @@ def main():
   print("Number of names:",count_names(names))
   print("Uppercase names:",to_upper(names))
   print("Names starting with L:", names_starting_with(names, "L"))
-
+  
+  
 
 
 
