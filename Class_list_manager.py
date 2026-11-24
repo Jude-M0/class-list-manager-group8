@@ -26,7 +26,7 @@ def names_starting_with(names, letter):
 
 
 #Written by: Lana Aljuaid (task 2) 
-def search_name(names, name):
+def search_names(names, name):
    return name in names
 
 # Written by: (Danah Alhawas) (task 3)
@@ -46,7 +46,7 @@ def main():
   print("Names starting with L:", names_starting_with(names, "L"))
   print("Is Reem in the class?", search_names(names, "Reem")) 
   print("Is Dana in the class?", search_names(names, "Dana"))
-  
+  print("Sorted names:", sort_names(names))
   
 
 
