@@ -29,7 +29,9 @@ def names_starting_with(names, letter):
 def search_name(names, name):
    return name in names
 
-
+# Written by: (Danah Alhawas) (task 3)
+def sort_names(names):
+    return sorted(names)
 
 
 
